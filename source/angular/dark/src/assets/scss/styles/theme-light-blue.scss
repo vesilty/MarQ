@@ -1,0 +1,197 @@
+﻿@import '_theme-color-variables';
+
+.theme-light-blue {
+
+  .navbar {
+    background-color: $theme-light-blue;
+  }
+
+  .nav {
+    >li {
+      >a {
+        color: $theme-light-blue-nav-anchor;
+
+        &:hover {
+          background-color: $theme-light-blue-nav-anchor_hover;
+          text-decoration: none;
+        }
+
+        &:focus {
+          background-color: $theme-light-blue-nav-anchor_focus;
+          text-decoration: none;
+        }
+      }
+    }
+
+  }
+
+  .bars {
+    color: $theme-light-blue-bar;
+  }
+
+  .sidebar {
+    .menu {
+      .list {
+        li {
+          &.active {
+            background-color: $theme-light-blue-menu-list-active;
+
+            > :first-child {
+
+              i,
+              span {
+                color: $theme-light-blue;
+              }
+            }
+          }
+
+          a {
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+
+            i,
+            span {
+              -moz-transition: all 0.3s;
+              -o-transition: all 0.3s;
+              -webkit-transition: all 0.3s;
+              transition: all 0.3s;
+            }
+
+            &:hover {
+              color: $theme-light-blue;
+
+              i,
+              span {
+                color: $theme-light-blue;
+              }
+            }
+          }
+        }
+
+        .toggled {
+          background-color: $theme-light-blue-menu-list-toggled;
+        }
+
+        .ml-menu {
+          background-color: $theme-light-blue-menu-list-submenu;
+
+          .active {
+            a {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+
+    .legal {
+      background-color: $theme-light-blue-legal-bg;
+
+      .copyright {
+        a {
+          color: $theme-light-blue !important;
+        }
+      }
+    }
+  }
+
+  /* breadcrumb style */
+  .breadcrumb li a {
+    color: $theme-light-blue !important;
+  }
+
+  /* card header style */
+  .card .header h2 strong {
+    color: $theme-light-blue !important;
+  }
+
+  /* table pagination style */
+  .page-item.active .page-link {
+    background-color: $theme-light-blue;
+    border-color: $theme-light-blue;
+    color: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  /* primary button */
+  .btn-primary {
+    background-color: $theme-light-blue !important;
+    color: #fff !important;
+    margin: 2px;
+    border-color: $theme-light-blue !important;
+
+    &:hover {
+      background-color: $theme-light-blue !important;
+      color: #fff !important;
+    }
+
+    &:active {
+      background-color: $theme-light-blue !important;
+      color: #fff !important;
+    }
+
+    &:focus {
+      background-color: $theme-light-blue !important;
+      color: #fff !important;
+    }
+
+    &:disabled {
+      background-color: $theme-light-blue !important;
+      color: #fff !important;
+    }
+  }
+
+  .btn-outline-primary {
+    background: 0 0 !important;
+    color: $theme-light-blue !important;
+    border: 1px solid $theme-light-blue !important;
+
+    &:hover {
+      background: $theme-light-blue !important;
+      color: #fff !important;
+      border: 1px solid $theme-light-blue !important;
+    }
+  }
+
+  .timelineLabelColor strong {
+    color: $theme-light-blue !important;
+  }
+
+  .top-sidebar {
+    .horizontal-menu {
+      li {
+        &.active {
+          >a {
+            color: $theme-light-blue;
+          }
+        }
+
+        a {
+          -moz-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+
+          &:hover {
+            color: $theme-light-blue;
+          }
+        }
+      }
+    }
+  }
+
+  /* Tab selected color */
+  .nav-tabs>li>a:before {
+    border-bottom: 2px solid $theme-light-blue;
+  }
+}
+
+/*Logo Header Background Color*/
+.logo-light-blue {
+  .navbar-header {
+    background-color: $theme-light-blue;
+  }
+}

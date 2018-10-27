@@ -1,0 +1,9 @@
+﻿.bootstrap-tagsinput {
+  @include box-shadow(none !important);
+  background-color: #353c48;
+  border: none !important;
+
+  .tag {
+    margin-bottom: 2px;
+  }
+}

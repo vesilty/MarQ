@@ -1,0 +1,109 @@
+.theme-black {
+  /* breadcrumb style */
+  /* card header style */
+  /* table pagination style */
+  /* primary button */
+  /* Tab selected color */ }
+  .theme-black .navbar {
+    background-color: #2c303b; }
+  .theme-black .navbar-brand {
+    color: #fff; }
+    .theme-black .navbar-brand:hover {
+      color: #fff; }
+    .theme-black .navbar-brand:active {
+      color: #fff; }
+    .theme-black .navbar-brand:focus {
+      color: #fff; }
+  .theme-black .nav > li > a {
+    color: #fff; }
+    .theme-black .nav > li > a:hover {
+      background-color: rgba(0, 0, 0, 0);
+      text-decoration: none; }
+    .theme-black .nav > li > a:focus {
+      background-color: rgba(0, 0, 0, 0);
+      text-decoration: none; }
+  .theme-black .nav .open > a {
+    background-color: rgba(0, 0, 0, 0); }
+    .theme-black .nav .open > a:hover {
+      background-color: rgba(0, 0, 0, 0); }
+    .theme-black .nav .open > a:focus {
+      background-color: rgba(0, 0, 0, 0); }
+  .theme-black .bars {
+    color: #fff; }
+  .theme-black .sidebar .menu .list li.active {
+    background-color: rgba(0, 0, 0, 0); }
+    .theme-black .sidebar .menu .list li.active > :first-child i, .theme-black .sidebar .menu .list li.active > :first-child span {
+      color: #5783c7; }
+  .theme-black .sidebar .menu .list li a {
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .theme-black .sidebar .menu .list li a i, .theme-black .sidebar .menu .list li a span {
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s; }
+    .theme-black .sidebar .menu .list li a:hover {
+      color: #5783c7; }
+      .theme-black .sidebar .menu .list li a:hover i, .theme-black .sidebar .menu .list li a:hover span {
+        color: #5783c7; }
+  .theme-black .sidebar .menu .list .toggled {
+    background-color: rgba(0, 0, 0, 0); }
+  .theme-black .sidebar .menu .list .ml-menu {
+    background-color: rgba(0, 0, 0, 0); }
+  .theme-black .sidebar .legal {
+    background-color: #fff; }
+    .theme-black .sidebar .legal .copyright a {
+      color: #2c303b !important; }
+  .theme-black .breadcrumb li a {
+    color: #2c303b !important; }
+  .theme-black .card .header h2 strong {
+    color: #2c303b !important; }
+  .theme-black .page-item.active .page-link {
+    background-color: #2c303b;
+    border-color: #2c303b;
+    color: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2); }
+  .theme-black .btn-primary {
+    background-color: #2c303b !important;
+    color: #fff !important;
+    border-color: #2c303b !important; }
+    .theme-black .btn-primary:hover {
+      background-color: #2c303b !important;
+      color: #fff !important; }
+    .theme-black .btn-primary:active {
+      background-color: #2c303b !important;
+      color: #fff !important; }
+    .theme-black .btn-primary:focus {
+      background-color: #2c303b !important;
+      color: #fff !important; }
+    .theme-black .btn-primary:disabled {
+      background-color: #2c303b !important;
+      color: #fff !important; }
+  .theme-black .btn-outline-primary {
+    background: 0 0 !important;
+    color: #2c303b !important;
+    border: 1px solid #2c303b !important; }
+    .theme-black .btn-outline-primary:hover {
+      background: #2c303b !important;
+      color: #fff !important;
+      border: 1px solid #2c303b !important; }
+  .theme-black .timelineLabelColor strong {
+    color: #2c303b !important; }
+  .theme-black .top-sidebar .horizontal-menu li.active > a {
+    color: #2c303b; }
+  .theme-black .top-sidebar .horizontal-menu li a {
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .theme-black .top-sidebar .horizontal-menu li a:hover {
+      color: #2c303b; }
+  .theme-black .nav-tabs > li > a:before {
+    border-bottom: 2px solid #2c303b; }
+
+/*Logo Header Background Color*/
+.logo-black .navbar-header {
+  background-color: #2c303b; }

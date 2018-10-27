@@ -1,0 +1,171 @@
+﻿@import '_theme-color-variables';
+
+.theme-amber {
+
+    .navbar {
+        background-color: $theme-amber;
+    }
+
+    .nav {
+        > li {
+            > a {
+                color: $theme-amber-nav-anchor;
+
+                &:hover {
+                    background-color: $theme-amber-nav-anchor_hover;
+                    text-decoration: none;
+                }
+
+                &:focus {
+                    background-color: $theme-amber-nav-anchor_focus;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+
+    .bars {
+        color: $theme-amber-bar;
+    }
+
+    .sidebar {
+        .menu {
+            .list {
+                li{
+                    &.active {
+                        background-color: $theme-amber-menu-list-active;
+
+                        > :first-child {
+                            i, span {
+                                color: $theme-amber;
+                            }
+                        }
+                    }
+                    a{
+                        -moz-transition: all 0.3s;
+                        -o-transition: all 0.3s;
+                        -webkit-transition: all 0.3s;
+                        transition: all 0.3s;
+                        i, span {
+                            -moz-transition: all 0.3s;
+                            -o-transition: all 0.3s;
+                            -webkit-transition: all 0.3s;
+                            transition: all 0.3s;
+                        }
+                        &:hover {
+                            color: $theme-amber;
+                            i, span {
+                                color: $theme-amber;
+                            }
+                        }
+                    }
+                }
+
+                .toggled {
+                    background-color: $theme-amber-menu-list-toggled;
+                }
+
+                .ml-menu {
+                    background-color: $theme-amber-menu-list-submenu;
+                    .active{
+                        a{
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+
+        .legal {
+            background-color: $theme-amber-legal-bg;
+
+            .copyright {
+                a {
+                    color: $theme-amber !important;
+                }
+            }
+        }
+    }
+    /* breadcrumb style */
+    .breadcrumb li a {
+        color: $theme-amber !important;
+    }
+    /* card header style */
+    .card .header h2 strong {
+        color: $theme-amber !important;
+    }
+    /* table pagination style */
+    .page-item.active .page-link {
+        background-color: $theme-amber;
+        border-color: $theme-amber;
+        color: #FFFFFF;
+        border-radius: 50%;
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+    }
+    /* primary button */
+    .btn-primary {
+        background-color: $theme-amber !important;
+        color: #fff !important;
+        border-color: $theme-amber !important;
+        &:hover {
+            background-color: $theme-amber !important;
+            color: #fff !important;
+        }
+        &:active {
+            background-color: $theme-amber !important;
+            color: #fff !important;
+        }
+        &:focus {
+            background-color: $theme-amber !important;
+            color: #fff !important;
+        }
+        &:disabled {
+            background-color: $theme-amber !important;
+            color: #fff !important;
+        }
+    }
+    .btn-outline-primary {
+        background: 0 0 !important;
+        color: $theme-amber !important;
+        border: 1px solid $theme-amber !important;
+        &:hover {
+            background: $theme-amber !important;
+            color: #fff !important;
+            border: 1px solid $theme-amber !important;
+        }
+    }
+    .timelineLabelColor strong{
+        color: $theme-amber !important;
+    }
+    .top-sidebar{
+        .horizontal-menu{
+            li{
+                &.active{
+                    > a {
+                        color: $theme-amber;
+                    }
+                }
+                a{
+                    -moz-transition: all 0.3s;
+                    -o-transition: all 0.3s;
+                    -webkit-transition: all 0.3s;
+                    transition: all 0.3s;
+                    &:hover {
+                        color: $theme-amber;
+                    }
+                }
+            }
+        }
+    }
+    /* Tab selected color */
+    .nav-tabs > li > a:before {
+        border-bottom: 2px solid $theme-amber;
+    }
+}
+/*Logo Header Background Color*/
+.logo-amber{
+    .navbar-header{
+        background-color: $theme-amber;
+    }
+}

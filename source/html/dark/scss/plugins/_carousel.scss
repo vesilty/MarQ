@@ -1,0 +1,18 @@
+﻿.owl-btns {
+    text-align: center;
+    [class*=owl-] {
+        color: #FFF;
+        font-size: 14px;
+        margin: 5px;
+        padding: 4px 7px;
+        background: #d6d6d6;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 3px;
+        &:hover{
+            background: #869791;
+            color: #FFF;
+            text-decoration: none;
+        }
+    }
+}

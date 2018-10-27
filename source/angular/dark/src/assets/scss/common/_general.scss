@@ -1,0 +1,159 @@
+﻿body,
+html {
+  background-color: #3c4452;
+  @include transition(all .5s);
+  font-family: 'Roboto', Arial, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+button,
+input,
+select,
+a {
+  outline: none !important;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.row {
+  margin-bottom: 0px !important;
+}
+
+.no-animate {
+  -o-transition-property: none !important;
+  -moz-transition-property: none !important;
+  -ms-transition-property: none !important;
+  -webkit-transition-property: none !important;
+  transition-property: none !important;
+  -o-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -webkit-transform: none !important;
+  transform: none !important;
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  -o-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+}
+
+section {
+  &.content {
+    margin: 83px 15px 0 275px;
+    @include transition(.5s);
+  }
+}
+
+.horizontal-layout {
+  section {
+    &.content {
+      margin: 170px 15px 0 15px;
+      float: left;
+      width: calc(100% - 30px);
+    }
+  }
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.jqvmap-zoomin,
+.jqvmap-zoomout {
+  width: 15px;
+  height: 15px;
+}
+
+table {
+  .checkbox {
+    [type="checkbox"]+label {
+      margin: 0;
+      height: 20px;
+      padding-left: 20px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.loading-img-spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin: -60px 0 20px -20px;
+  -webkit-animation: spin 1.5s linear infinite;
+  -moz-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+.shadow-style {
+  -webkit-box-shadow: 0 7px 18px 0 rgba(62, 57, 107, .2);
+  box-shadow: 0 7px 18px 0 rgba(62, 57, 107, .2);
+}
+
+.review-img {
+  padding-left: 20px;
+  padding-top: 5px;
+
+  img {
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.horizontal-layout {
+
+  .sidebar,
+  .nav-left-menu {
+    display: none;
+  }
+}
+
+.bootstrap-notify-container {
+  max-width: 320px;
+  text-align: center;
+}
+
+@media screen and(max-width: 1169px) {
+  .horizontal-layout {
+    .sidebar {
+      display: block;
+    }
+
+    .top-sidebar {
+      display: none;
+    }
+
+    section.content {
+      margin-top: 100px;
+    }
+  }
+}
+
+@media screen and(min-width: 1400px) {
+  .boxed-layout .container {
+    width: 1370px;
+    max-width: 100%;
+  }
+}
